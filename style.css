@@ -1,0 +1,61 @@
+body
+{
+    background-image: url(1.png); /*پس زمينه*/
+    text-align: center; /*موقعيت يا چيدمان متن*/
+    color: white;
+}
+
+.page-tamas
+{
+    margin: 120px; /*حاشبه فضاي خارجي */
+}
+
+h1
+{
+    text-shadow: 2px 2px 5px red; /*انداختن سايه روي متن با shadow*/
+}
+
+h3
+{
+    text-shadow: 2px 2px 5px red; /*انداختن سايه روي متن با shadow*/
+}
+
+form
+{
+    width: 305px;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+input
+{
+    width: 270px; /*عرض*/
+    height: 42px; /*ارتفاع*/
+    text-align: right;
+    margin-top: 25px;/*فضاي خارجي از بالا*/
+    padding: 0 15px; /*فاصله بين متن و خطوط*/
+    background: rgba(45,45,45,.15);
+    border: 1px solid rgba(255,255,255,.15); /*خطوط اطراف تگ ها*/
+    font-size: 17px; /*اندازه قلم*/
+    color:white;
+}
+
+.yourtext
+{
+    width: 270px;
+    height: 100px;
+}
+
+button
+{
+    cursor: pointer; /* وقتي که اشاره گر روي موس ميرود به شکل دست ميشود*/
+    width: 270px;
+    height: 42px;
+    margin-top: 25px;
+    padding: 0;
+    background: #f08080;
+    border: 1px solid #f08080;/*خط ممتد*/
+    font-size: 14px; 
+    font-weight: 700; /*ضخامت قلم*/
+    color: white;
+}
